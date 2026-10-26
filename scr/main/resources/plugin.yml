@@ -1,0 +1,14 @@
+name: JLAI
+main: com.dbsmp.jlai.JLAIPlugin
+version: 1.0.0
+author: Ryden
+description: Just Looking At Items - read-only item browser for DBSMP.
+commands:
+  jlai:
+    description: Open the JLAI item browser
+    usage: /jlai [search <name>|recipe <item name>|compass]
+    aliases: [items, itemlookup]
+permissions:
+  jlai.use:
+    description: Allows use of JLAI
+    default: true
